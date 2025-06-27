@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.topbar {
+  background: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar .logo {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+.topbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.searchbar input {
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.breadcrumb {
+  margin: 10px 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.product-img {
+  width: 400px;
+  height: auto;
+}
+
+.product-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.product-details h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.rating {
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+.stock {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.add-cart {
+  background: red;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.return-policy {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.highlights ul {
+  padding-left: 20px;
+}
+
+.show-more {
+  margin-top: 10px;
+  background: #eee;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.desc {
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.tab:hover {
+  border-bottom: 2px solid red;
+  background: #fff;
+}
+
+.checkout {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.checkout input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.place-order {
+  background: green;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-success {
+  text-align: center;
+  padding: 60px;
+}
